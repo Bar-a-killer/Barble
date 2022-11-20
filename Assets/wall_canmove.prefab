@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5805416402909346541}
   - component: {fileID: 2144089366594268905}
   - component: {fileID: 2050201965696176943}
+  - component: {fileID: 1202625726992283068}
   m_Layer: 0
   m_Name: wall_canmove
   m_TagString: Untagged
@@ -131,3 +132,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1202625726992283068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4158978010815853985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed63bc95779d238468680620758abb80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -22,7 +22,7 @@ public class Play : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W)||Input.GetKey(KeyCode.Space))
         {
             if (GetComponent<Rigidbody2D>().gravityScale == 0f)
             {
@@ -55,8 +55,31 @@ public class Play : MonoBehaviour
             }
 
         }
+        else if(Input.GetKey(KeyCode.K))
+        {
+            transform.position = new Vector2(-90, -250);
+            GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 0f, 1);
+            Usekey usekey = new Usekey();
+            usekey.Change_key('2');
+            if (GetComponent<Rigidbody2D>().gravityScale == 0f)
+                GetComponent<Rigidbody2D>().gravityScale = 5f;
+
+        }
+        else if (Input.GetKey(KeyCode.L))
+        {
+            GameObject.Find("Canvas").GetComponent<Timesup>().Toreplay();
+            /*Usekey usekey = new Usekey();
+            GetComponent<SpriteRenderer>().color = new Color(37f / 255f, 1, 86f / 255f, 1);
+            GetComponent<Transform>().position = new Vector2(-24, 0);
+            GetComponent<Rigidbody2D>().gravityScale = 0f;
+            GetComponent<Animator>().SetBool("jump", false);
+            usekey.Change_key('1');
+            maxhp = 3;
+            hp = 3;*/
+            //hptxt.text = "Hp" + hp.ToString
+        }
         else if (Input.GetKey(KeyCode.A))
-        { 
+        {
             if (Input.GetKey(KeyCode.LeftShift))
                 transform.Translate(-runspeed * Time.deltaTime, 0, 0);
             else
@@ -117,13 +140,11 @@ public class Play : MonoBehaviour
             GetComponent<SpriteRenderer>().color = new Color(37f/255f, 1, 86f/255f, 1);
             GetComponent<Transform>().position = new Vector2(-24, 0);
             GetComponent<Rigidbody2D>().gravityScale = 0f;
+            GetComponent<Animator>().SetBool("jump", false);
             usekey.Change_key('1');
-            maxhp = 0;
-            hp = 0;
+            maxhp = 3;
+            hp = 3;
             //hptxt.text = "Hp" + hp.ToString();
-             
-             
-
         }
         //特別點(黃-重力)
         if (other.gameObject.tag == "specdot2")
@@ -173,10 +194,7 @@ public class Play : MonoBehaviour
         {
             maxhp += 3;
             hp = maxhp;
-            //hptxt.text = "Hp" + hp.ToString();
- 
-             
-
+            //hptxt.text = "Hp" + hp.ToString
         }
         hpbar.GetComponent<RectTransform>().sizeDelta = new Vector2(496 * (maxhp - hp) / maxhp, 22);
         hpbar.GetComponent<RectTransform>().anchoredPosition = new Vector2(-196.8f - 496 * (maxhp - hp) / maxhp / 2, 426);

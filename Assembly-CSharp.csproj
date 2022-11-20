@@ -60,12 +60,13 @@
     <Compile Include="Assets\mapline.cs" />
     <Compile Include="Assets\dissappear.cs" />
     <Compile Include="Assets\wallmaster.cs" />
+    <Compile Include="Assets\jump.cs" />
     <Compile Include="Assets\enemyball.cs" />
     <Compile Include="Assets\camera.cs" />
     <Compile Include="Assets\wall.cs" />
     <Compile Include="Assets\Play.cs" />
     <Compile Include="Assets\closebutton.cs" />
-    <Compile Include="Assets\jump.cs" />
+    <Compile Include="Assets\Timesup.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

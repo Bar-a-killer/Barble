@@ -19,8 +19,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - normal
+  - back ground
   - 
   - 
   - 
@@ -51,4 +51,7 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: normal
+    uniqueID: 754481965
     locked: 0
