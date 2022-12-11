@@ -12,6 +12,7 @@ TagManager:
   - wall
   - enemy
   - specdot2
+  - camera range
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - UI
   - normal
   - back ground
-  - 
+  - MapRange
   - 
   - 
   - 

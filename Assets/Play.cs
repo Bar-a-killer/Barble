@@ -10,16 +10,16 @@ public class Play : MonoBehaviour
     [SerializeField] GameObject hpbar;
     [SerializeField] float Jump; 
     [SerializeField] float runspeed = 8;
+    [SerializeField] GameObject now_camera;
+    [SerializeField] GameObject[] All_camera;
+
     int hp = 3;
     bool touch = false;  
-    
-    // Start is called before the first frame update
+
     void Start()
     {
-        
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKey(KeyCode.W)||Input.GetKey(KeyCode.Space))
@@ -199,6 +199,28 @@ public class Play : MonoBehaviour
         hpbar.GetComponent<RectTransform>().sizeDelta = new Vector2(496 * (maxhp - hp) / maxhp, 22);
         hpbar.GetComponent<RectTransform>().anchoredPosition = new Vector2(-196.8f - 496 * (maxhp - hp) / maxhp / 2, 426);
 
+        
+        
     }
-
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "camera range")
+        {
+            if (other.gameObject.name == "camera shape (1)")
+            {
+                Change_Camera(0);
+            }
+                
+            else if (other.gameObject.name == "camera shape 1 (1)")
+            {
+                Change_Camera(1);
+            }
+        }
+    }
+    private void Change_Camera(int i)
+    {
+        now_camera.SetActive(false);
+        now_camera = All_camera[i];
+        now_camera.SetActive(true);
+    }   
 }

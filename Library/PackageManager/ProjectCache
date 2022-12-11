@@ -1,20 +1,20 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: "C:/unity me/\u904A\u6232\u5C08\u6848/frogcatbar/frog,cat and Bar/Packages/manifest.json"
+    m_FilePath: D:/hellslime/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637872635612353027
-    m_Hash: 1498389506
+      ticks: 638057181313660257
+    m_Hash: 4206991184
   m_LockFileStatus:
-    m_FilePath: "C:/unity me/\u904A\u6232\u5C08\u6848/frogcatbar/frog,cat and Bar/Packages/packages-lock.json"
+    m_FilePath: D:/hellslime/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637872635687884856
-    m_Hash: 1102651484
+      ticks: 638057181313740145
+    m_Hash: 2341641707
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -25,8 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 5.2.0
       source: 1
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.2d.animation@5.2.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.2d.animation@5.2.0
       assetPath: Packages/com.unity.2d.animation
       name: com.unity.2d.animation
       displayName: 2D Animation
@@ -35,10 +34,10 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: 
+      type: asset
       description: 2D Animation provides all the necessary tooling and runtime components
         for skeletal animation using Sprites.
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -112,6 +111,9 @@ m_PackageAssets:
         - 5.1.1
         - 5.2.0
         - 5.2.1
+        - 5.2.3
+        - 5.2.4
+        - 5.2.6
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.1
@@ -127,15 +129,30 @@ m_PackageAssets:
         - 7.0.3
         - 7.0.4
         - 7.0.5
+        - 7.0.6
+        - 7.0.7
+        - 7.0.8
+        - 7.0.9
         - 8.0.0-pre.3
         - 8.0.0-pre.4
         - 8.0.0
         - 8.0.1
+        - 8.0.2
+        - 8.0.3
+        - 8.0.4
+        - 8.0.5
         - 9.0.0-pre.1
+        - 9.0.0-pre.3
+        - 9.0.0
+        - 9.0.1
+        - 10.0.0-pre.1
         compatible:
         - 5.2.0
         - 5.2.1
-        verified: 5.2.1
+        - 5.2.3
+        - 5.2.4
+        - 5.2.6
+        verified: 5.2.6
       dependencies:
       - name: com.unity.2d.common
         version: 4.2.0
@@ -176,8 +193,9 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -194,8 +212,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.0.1
       source: 1
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.2d.pixel-perfect@4.0.1"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1
       assetPath: Packages/com.unity.2d.pixel-perfect
       name: com.unity.2d.pixel-perfect
       displayName: 2D Pixel Perfect
@@ -204,7 +221,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: tool
       description: 'The 2D Pixel Perfect package contains the Pixel Perfect Camera
         component which ensures your pixel art remains crisp and clear at different
         resolutions, and stable in motion.
@@ -216,7 +233,7 @@ m_PackageAssets:
         the pixel art rendered within the camera viewport through the component settings,
         as well preview any changes immediately in Game view by using the Run in
         Edit Mode feature.'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -235,6 +252,8 @@ m_PackageAssets:
         - 5.0.0-pre.2
         - 5.0.0
         - 5.0.1
+        - 5.0.2
+        - 5.0.3
         compatible:
         - 4.0.1
         verified: 4.0.1
@@ -252,6 +271,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -270,8 +290,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.3.0
       source: 1
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.2d.psdimporter@4.3.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.2d.psdimporter@4.3.0
       assetPath: Packages/com.unity.2d.psdimporter
       name: com.unity.2d.psdimporter
       displayName: 2D PSD Importer
@@ -280,12 +299,12 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: 
+      type: asset
       description: A ScriptedImporter for importing Adobe Photoshop PSB (Photoshop
         Big) file format. The ScriptedImporter is currently targeted for users who
         wants to create multi Sprite character animation using Unity 2D Animation
         Package.
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -328,6 +347,7 @@ m_PackageAssets:
         - 4.1.3
         - 4.2.0
         - 4.3.0
+        - 4.3.1
         - 5.0.0-pre.1
         - 5.0.0-pre.2
         - 5.0.1
@@ -341,13 +361,24 @@ m_PackageAssets:
         - 6.0.1
         - 6.0.2
         - 6.0.3
+        - 6.0.4
+        - 6.0.5
+        - 6.0.6
         - 7.0.0-pre.3
         - 7.0.0-pre.4
         - 7.0.0
+        - 7.0.1
+        - 7.0.2
+        - 7.0.3
         - 8.0.0-pre.1
+        - 8.0.0-pre.3
+        - 8.0.0
+        - 8.0.1
+        - 9.0.0-pre.1
         compatible:
         - 4.3.0
-        verified: 4.3.0
+        - 4.3.1
+        verified: 4.3.1
       dependencies:
       - name: com.unity.2d.common
         version: 4.2.0
@@ -387,8 +418,9 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -405,8 +437,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.2d.sprite@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.2d.sprite@1.0.0
       assetPath: Packages/com.unity.2d.sprite
       name: com.unity.2d.sprite
       displayName: 2D Sprite
@@ -418,7 +449,7 @@ m_PackageAssets:
       type: 
       description: Use Unity Sprite Editor Window to create and edit Sprite asset
         properties like pivot, borders and Physics shape
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -439,6 +470,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -457,8 +489,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 5.3.0
       source: 1
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.2d.spriteshape@5.3.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.2d.spriteshape@5.3.0
       assetPath: Packages/com.unity.2d.spriteshape
       name: com.unity.2d.spriteshape
       displayName: 2D SpriteShape
@@ -467,12 +498,12 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: 
+      type: asset
       description: SpriteShape Runtime & Editor Package contains the tooling and
         the runtime component that allows you to create very organic looking spline
         based 2D worlds. It comes with intuitive configurator and a highly performant
         renderer.
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -542,10 +573,16 @@ m_PackageAssets:
         - 7.0.2
         - 7.0.3
         - 7.0.4
+        - 7.0.5
+        - 7.0.6
         - 8.0.0-pre.4
         - 8.0.0-pre.5
         - 8.0.0
+        - 8.0.1
         - 9.0.0-pre.1
+        - 9.0.0
+        - 9.0.1
+        - 10.0.0-pre.1
         compatible:
         - 5.3.0
         verified: 5.3.0
@@ -593,8 +630,9 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -611,8 +649,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.2d.tilemap@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.2d.tilemap@1.0.0
       assetPath: Packages/com.unity.2d.tilemap
       name: com.unity.2d.tilemap
       displayName: 2D Tilemap Editor
@@ -624,7 +661,7 @@ m_PackageAssets:
       type: 
       description: 2D Tilemap Editor is a package that contains editor functionalities
         for editing Tilemaps.
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -644,6 +681,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -657,13 +695,189 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.collab-proxy@1.15.15
+    - packageId: com.unity.cinemachine@2.6.17
       testable: 0
       isDirectDependency: 1
-      version: 1.15.15
+      version: 2.6.17
       source: 1
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.collab-proxy@1.15.15"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.cinemachine@2.6.17
+      assetPath: Packages/com.unity.cinemachine
+      name: com.unity.cinemachine
+      displayName: Cinemachine
+      author:
+        name: 
+        email: 
+        url: 
+      category: cinematography
+      type: asset
+      description: "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE:
+        If you are upgrading from the Asset Store version of Cinemachine, delete
+        the Cinemachine asset from your project BEFORE installing this version from
+        the Package Manager."
+      status: 0
+      errors: []
+      versions:
+        all:
+        - 2.1.11-beta.1
+        - 2.1.12
+        - 2.1.13
+        - 2.2.0
+        - 2.2.7
+        - 2.2.8
+        - 2.2.9
+        - 2.2.10-preview.3
+        - 2.2.10-preview.4
+        - 2.3.1
+        - 2.3.3
+        - 2.3.4
+        - 2.3.5-preview.3
+        - 2.4.0-preview.3
+        - 2.4.0-preview.4
+        - 2.4.0-preview.6
+        - 2.4.0-preview.7
+        - 2.4.0-preview.8
+        - 2.4.0-preview.9
+        - 2.4.0-preview.10
+        - 2.4.0
+        - 2.5.0
+        - 2.6.0-preview.2
+        - 2.6.0-preview.3
+        - 2.6.0-preview.5
+        - 2.6.0-preview.8
+        - 2.6.0
+        - 2.6.1-preview.6
+        - 2.6.1
+        - 2.6.2-preview.1
+        - 2.6.2
+        - 2.6.3-preview.2
+        - 2.6.3
+        - 2.6.4
+        - 2.6.5
+        - 2.6.9
+        - 2.6.10
+        - 2.6.11
+        - 2.6.14
+        - 2.6.15
+        - 2.6.17
+        - 2.7.1
+        - 2.7.2
+        - 2.7.3
+        - 2.7.4
+        - 2.7.5
+        - 2.7.8
+        - 2.7.9
+        - 2.8.0-exp.1
+        - 2.8.0-exp.2
+        - 2.8.0-pre.1
+        - 2.8.0
+        - 2.8.1
+        - 2.8.2
+        - 2.8.3
+        - 2.8.4
+        - 2.8.6
+        - 2.8.9
+        - 2.9.0-pre.1
+        - 2.9.0-pre.6
+        - 2.9.1
+        - 2.9.2
+        - 2.9.4
+        - 3.0.0-pre.3
+        compatible:
+        - 2.5.0
+        - 2.6.0-preview.2
+        - 2.6.0-preview.3
+        - 2.6.0-preview.5
+        - 2.6.0-preview.8
+        - 2.6.0
+        - 2.6.1-preview.6
+        - 2.6.1
+        - 2.6.2-preview.1
+        - 2.6.2
+        - 2.6.3-preview.2
+        - 2.6.3
+        - 2.6.4
+        - 2.6.5
+        - 2.6.9
+        - 2.6.10
+        - 2.6.11
+        - 2.6.14
+        - 2.6.15
+        - 2.6.17
+        - 2.7.1
+        - 2.7.2
+        - 2.7.3
+        - 2.7.4
+        - 2.7.5
+        - 2.7.8
+        - 2.7.9
+        - 2.8.0-exp.1
+        - 2.8.0-exp.2
+        - 2.8.0-pre.1
+        - 2.8.0
+        - 2.8.1
+        - 2.8.2
+        - 2.8.3
+        - 2.8.4
+        - 2.8.6
+        - 2.8.9
+        - 2.9.0-pre.1
+        - 2.9.0-pre.6
+        - 2.9.1
+        - 2.9.2
+        - 2.9.4
+        verified: 2.6.17
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - camera
+      - follow
+      - rig
+      - fps
+      - cinematography
+      - aim
+      - orbit
+      - cutscene
+      - cinematic
+      - collision
+      - freelook
+      - cinemachine
+      - compose
+      - composition
+      - dolly
+      - track
+      - clearshot
+      - noise
+      - framing
+      - handheld
+      - lens
+      - impulse
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+        configSource: 0
+      hasRegistry: 1
+      hideInEditor: 0
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637975495960000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
+        revision: 57501b59e2a5755e26dc54181b2b097af0045a44
+        path: 
+    - packageId: com.unity.collab-proxy@1.17.6
+      testable: 0
+      isDirectDependency: 1
+      version: 1.17.6
+      source: 1
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.collab-proxy@1.17.6
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -672,12 +886,12 @@ m_PackageAssets:
         email: 
         url: 
       category: Editor
-      type: 
+      type: asset
       description: The Version Control package gives you the ability to use either
         Collaborate or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic
         SCM for Unity (beta), a Plastic SCM subscription is required. Learn more
         about how you can get started for free by visiting plasticscm.com.
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -716,6 +930,8 @@ m_PackageAssets:
         - 1.14.13
         - 1.14.15
         - 1.14.16
+        - 1.14.17
+        - 1.14.18
         - 1.15.1
         - 1.15.4
         - 1.15.7
@@ -724,6 +940,13 @@ m_PackageAssets:
         - 1.15.13
         - 1.15.15
         - 1.15.16
+        - 1.15.17
+        - 1.15.18
+        - 1.17.0
+        - 1.17.1
+        - 1.17.2
+        - 1.17.6
+        - 1.17.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -735,8 +958,8 @@ m_PackageAssets:
         - 2.1.0-preview.5
         - 2.1.0-preview.6
         compatible:
-        - 1.15.15
-        - 1.15.16
+        - 1.17.6
+        - 1.17.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -747,7 +970,7 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.15.16
+        verified: 1.17.7
       dependencies:
       - name: com.unity.services.core
         version: 1.0.1
@@ -777,26 +1000,26 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637828649420000000
+      datePublishedTicks: 638009928240000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: abf10445fb869983dbe4f8f87ec63c58f4cd36e0
+        revision: 3744f24b80468ef1336fbc234c93625c4a6287b0
         path: 
-    - packageId: com.unity.ide.rider@2.0.7
+    - packageId: com.unity.ide.rider@3.0.16
       testable: 0
       isDirectDependency: 1
-      version: 2.0.7
+      version: 3.0.16
       source: 1
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.ide.rider@2.0.7"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.ide.rider@3.0.16
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -805,11 +1028,11 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: The JetBrains Rider Editor package provides an integration for
         using the JetBrains Rider IDE as a code editor for Unity. It adds support
         for generating .csproj files for code completion and auto-discovery of installations.
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -843,6 +1066,8 @@ m_PackageAssets:
         - 3.0.12
         - 3.0.13
         - 3.0.14
+        - 3.0.15
+        - 3.0.16
         compatible:
         - 1.0.2
         - 1.0.6
@@ -874,19 +1099,15 @@ m_PackageAssets:
         - 3.0.12
         - 3.0.13
         - 3.0.14
-        verified: 2.0.7
+        - 3.0.15
+        - 3.0.16
+        verified: 3.0.16
       dependencies:
-      - name: com.unity.test-framework
-        version: 1.1.1
-      resolvedDependencies:
-      - name: com.unity.test-framework
-        version: 1.1.31
       - name: com.unity.ext.nunit
         version: 1.0.6
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.ext.nunit
+        version: 1.0.6
       keywords: []
       registry:
         id: main
@@ -895,26 +1116,26 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637334461080000000
+      datePublishedTicks: 638011833630000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-        revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
+        revision: 9b718d58b8f7a34e564f2c79af6d2ca788e929d4
         path: 
-    - packageId: com.unity.ide.visualstudio@2.0.14
+    - packageId: com.unity.ide.visualstudio@2.0.16
       testable: 0
       isDirectDependency: 1
-      version: 2.0.14
+      version: 2.0.16
       source: 1
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.ide.visualstudio@2.0.14"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -923,11 +1144,11 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Code editor integration for supporting Visual Studio as code editor
         for unity. Adds support for generating csproj files for intellisense purposes,
         auto discovery of installations, etc.
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -949,6 +1170,7 @@ m_PackageAssets:
         - 2.0.12
         - 2.0.14
         - 2.0.15
+        - 2.0.16
         compatible:
         - 1.0.2
         - 1.0.3
@@ -968,13 +1190,14 @@ m_PackageAssets:
         - 2.0.12
         - 2.0.14
         - 2.0.15
-        verified: 2.0.15
+        - 2.0.16
+        verified: 2.0.16
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.31
+        version: 1.1.33
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -989,26 +1212,26 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637782923640000000
+      datePublishedTicks: 637914298680000000
       documentationUrl: 
-      hasRepository: 0
+      hasRepository: 1
       repository:
-        type: 
-        url: 
-        revision: 
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
+        revision: c01855ef6461b821ab0226135e96a4ee86de96be
         path: 
     - packageId: com.unity.ide.vscode@1.2.5
       testable: 0
       isDirectDependency: 1
       version: 1.2.5
       source: 1
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.ide.vscode@1.2.5"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.ide.vscode@1.2.5
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -1017,11 +1240,11 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Code editor integration for supporting Visual Studio Code as code
         editor for unity. Adds support for generating csproj files for intellisense
         purposes, auto discovery of installations, etc.
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -1063,8 +1286,9 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1076,13 +1300,12 @@ m_PackageAssets:
         url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
         revision: b0740c80bfc2440527c317109f7c3d9100132722
         path: 
-    - packageId: com.unity.test-framework@1.1.31
+    - packageId: com.unity.test-framework@1.1.33
       testable: 0
       isDirectDependency: 1
-      version: 1.1.31
+      version: 1.1.33
       source: 1
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.test-framework@1.1.31"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.test-framework@1.1.33
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -1091,9 +1314,9 @@ m_PackageAssets:
         email: 
         url: 
       category: Unity Test Framework
-      type: 
+      type: asset
       description: Test framework for running Edit mode and Play mode tests in Unity.
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -1130,15 +1353,22 @@ m_PackageAssets:
         - 1.1.29
         - 1.1.30
         - 1.1.31
+        - 1.1.33
+        - 1.3.0
+        - 1.3.1
         - 2.0.1-exp.1
+        - 2.0.1-exp.2
         - 2.0.1-pre.12
         - 2.0.1-pre.18
         compatible:
-        - 1.1.31
+        - 1.1.33
+        - 1.3.0
+        - 1.3.1
         - 2.0.1-exp.1
+        - 2.0.1-exp.2
         - 2.0.1-pre.12
         - 2.0.1-pre.18
-        verified: 1.1.31
+        verified: 1.1.33
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -1163,26 +1393,26 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637804266210000000
+      datePublishedTicks: 637938212700000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-        revision: 438b0defc147c9be5c969ca79ff03a722b4590ed
+        revision: 34a4d423d64926635eb36d3bb86276179cc186e1
         path: 
     - packageId: com.unity.textmeshpro@3.0.6
       testable: 0
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.textmeshpro@3.0.6"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -1191,7 +1421,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Text Rendering
-      type: 
+      type: asset
       description: 'TextMeshPro is the ultimate text solution for Unity. It''s the
         perfect replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -1213,7 +1443,7 @@ m_PackageAssets:
         performance. Since the geometry created by TextMeshPro uses two triangles
         per character just like Unity''s text components, this improved visual quality
         and flexibility comes at no additional performance cost.'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -1330,8 +1560,9 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1348,8 +1579,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.8
       source: 1
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.timeline@1.4.8"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -1358,10 +1588,10 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Use Unity Timeline to create cinematic content, game-play sequences,
         audio sequences, and complex particle effects.
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -1437,6 +1667,8 @@ m_PackageAssets:
         - 1.7.0-pre.2
         - 1.7.0
         - 1.7.1
+        - 1.7.2
+        - 1.8.0
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -1465,6 +1697,8 @@ m_PackageAssets:
         - 1.7.0-pre.2
         - 1.7.0
         - 1.7.1
+        - 1.7.2
+        - 1.8.0
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -1497,8 +1731,9 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1515,8 +1750,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.ugui@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.ugui@1.0.0
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -1531,7 +1765,7 @@ m_PackageAssets:
         and the Game View to arrange, position, and style user interfaces. \u200B
         You cannot use Unity UI to create or change user interfaces in the Unity
         Editor."
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -1561,6 +1795,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -1579,8 +1814,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.ai@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.ai@1.0.0
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -1592,7 +1826,7 @@ m_PackageAssets:
       type: module
       description: 'The AI module implements the path finding features in Unity.
         Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AIModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -1610,6 +1844,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -1628,8 +1863,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.androidjni@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.androidjni@1.0.0
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -1641,7 +1875,7 @@ m_PackageAssets:
       type: module
       description: 'AndroidJNI module allows you to call Java code. Scripting API:
         https://docs.unity3d.com/ScriptReference/UnityEngine.AndroidJNIModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -1659,6 +1893,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -1677,8 +1912,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.animation@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.animation@1.0.0
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1690,7 +1924,7 @@ m_PackageAssets:
       type: module
       description: 'The Animation module implements Unity''s animation system. Scripting
         API: https://docs.unity3d.com/ScriptReference/UnityEngine.AnimationModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -1708,6 +1942,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -1726,8 +1961,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.assetbundle@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1739,7 +1973,7 @@ m_PackageAssets:
       type: module
       description: 'The AssetBundle module implements the AssetBundle class and related
         APIs to load data from AssetBundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AssetBundleModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -1757,6 +1991,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -1775,8 +2010,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.audio@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.audio@1.0.0
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1788,7 +2022,7 @@ m_PackageAssets:
       type: module
       description: 'The Audio module implements Unity''s audio system. Scripting
         API: https://docs.unity3d.com/ScriptReference/UnityEngine.AudioModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -1806,6 +2040,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -1824,8 +2059,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.cloth@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.cloth@1.0.0
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1837,7 +2071,7 @@ m_PackageAssets:
       type: module
       description: 'The Cloth module implements cloth physics simulation through
         the Cloth component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ClothModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -1859,6 +2093,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -1877,8 +2112,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.director@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.director@1.0.0
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -1890,7 +2124,7 @@ m_PackageAssets:
       type: module
       description: 'The Director module implements the PlayableDirector class. Scripting
         API: https://docs.unity3d.com/ScriptReference/UnityEngine.DirectorModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -1916,6 +2150,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -1934,8 +2169,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.imageconversion@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -1948,7 +2182,7 @@ m_PackageAssets:
       description: 'The ImageConversion module implements the ImageConversion class
         which provides helper methods to convert images from and to PNG, JPEG or
         EXR formats. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ImageConversionModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -1966,6 +2200,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -1984,8 +2219,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.imgui@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.imgui@1.0.0
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -1997,7 +2231,7 @@ m_PackageAssets:
       type: module
       description: 'The IMGUI module provides Unity''s immediate mode GUI solution
         for creating in-game and editor user interfaces. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.IMGUIModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -2015,6 +2249,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -2033,8 +2268,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.jsonserialize@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -2046,7 +2280,7 @@ m_PackageAssets:
       type: module
       description: 'The JSONSerialize module provides the JsonUtility class which
         lets you serialize Unity Objects to JSON format. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.JSONSerializeModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -2064,6 +2298,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -2082,8 +2317,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.particlesystem@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -2095,7 +2329,7 @@ m_PackageAssets:
       type: module
       description: 'The ParticleSystem module implements Unity''s Particle System.
         Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ParticleSystemModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -2113,6 +2347,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -2131,8 +2366,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.physics@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.physics@1.0.0
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -2144,7 +2378,7 @@ m_PackageAssets:
       type: module
       description: 'The Physics module implements 3D physics in Unity. Scripting
         API: https://docs.unity3d.com/ScriptReference/UnityEngine.PhysicsModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -2162,6 +2396,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -2180,8 +2415,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.physics2d@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.physics2d@1.0.0
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -2193,7 +2427,7 @@ m_PackageAssets:
       type: module
       description: 'The Physics2d module implements 2D physics in Unity. Scripting
         API: https://docs.unity3d.com/ScriptReference/UnityEngine.Physics2DModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -2211,6 +2445,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -2229,8 +2464,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.screencapture@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.screencapture@1.0.0
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -2242,7 +2476,7 @@ m_PackageAssets:
       type: module
       description: 'The ScreenCapture module provides functionality to take screen
         shots using the ScreenCapture class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ScreenCaptureModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -2264,6 +2498,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -2282,8 +2517,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.terrain@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.terrain@1.0.0
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -2295,7 +2529,7 @@ m_PackageAssets:
       type: module
       description: 'The Terrain module implements Unity''s Terrain rendering engine
         available through the Terrain component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -2313,6 +2547,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -2331,8 +2566,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.terrainphysics@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -2344,7 +2578,7 @@ m_PackageAssets:
       type: module
       description: 'The TerrainPhysics module connects the Terrain and Physics modules
         by implementing the TerrainCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainPhysicsModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -2370,6 +2604,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -2388,8 +2623,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.tilemap@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.tilemap@1.0.0
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -2401,7 +2635,7 @@ m_PackageAssets:
       type: module
       description: 'The Tilemap module implements the Tilemap class. Scripting API:
         https://docs.unity3d.com/ScriptReference/UnityEngine.TilemapModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -2423,6 +2657,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -2441,8 +2676,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.ui@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.ui@1.0.0
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -2454,7 +2688,7 @@ m_PackageAssets:
       type: module
       description: 'The UI module implements basic components required for Unity''s
         UI system Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -2472,6 +2706,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -2490,8 +2725,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.uielements@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.uielements@1.0.0
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -2503,7 +2737,7 @@ m_PackageAssets:
       type: module
       description: 'The UIElements module implements the UIElements retained mode
         UI framework. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIElementsModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -2537,6 +2771,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -2555,8 +2790,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.umbra@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.umbra@1.0.0
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -2568,7 +2802,7 @@ m_PackageAssets:
       type: module
       description: 'The Umbra module implements Unity''s occlusion culling system.
         Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UmbraModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -2586,6 +2820,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -2604,8 +2839,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.unityanalytics@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -2617,7 +2851,7 @@ m_PackageAssets:
       type: module
       description: 'The UnityAnalytics module implements APIs required to use Unity
         Analytics. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityAnalyticsModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -2643,6 +2877,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -2661,8 +2896,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.unitywebrequest@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -2674,7 +2908,7 @@ m_PackageAssets:
       type: module
       description: 'The UnityWebRequest module lets you communicate with http services.
         Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -2692,6 +2926,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -2710,8 +2945,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2723,7 +2957,7 @@ m_PackageAssets:
       type: module
       description: 'The UnityWebRequestAssetBundle module provides the DownloadHandlerAssetBundle
         class to use UnityWebRequest to download Asset Bundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAssetBundleModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -2749,6 +2983,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -2767,8 +3002,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2780,7 +3014,7 @@ m_PackageAssets:
       type: module
       description: 'The UnityWebRequestAudio module provides the DownloadHandlerAudioClip
         class to use UnityWebRequest to download AudioClips. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAudioModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -2806,6 +3040,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -2824,8 +3059,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2837,7 +3071,7 @@ m_PackageAssets:
       type: module
       description: 'The UnityWebRequestTexture module provides the DownloadHandlerTexture
         class to use UnityWebRequest to download Textures. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestTextureModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -2863,6 +3097,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -2881,8 +3116,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -2894,7 +3128,7 @@ m_PackageAssets:
       type: module
       description: 'The UnityWebRequestWWW module implements the legacy WWW lets
         you communicate with http services. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestWWWModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -2936,6 +3170,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -2954,8 +3189,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.vehicles@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.vehicles@1.0.0
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -2967,7 +3201,7 @@ m_PackageAssets:
       type: module
       description: 'The Vehicles module implements vehicle physics simulation through
         the WheelCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VehiclesModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -2989,6 +3223,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -3007,8 +3242,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.video@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.video@1.0.0
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -3020,7 +3254,7 @@ m_PackageAssets:
       type: module
       description: 'The Video module lets you play back video files in your content.
         Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VideoModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -3050,6 +3284,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -3068,8 +3303,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.vr@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.vr@1.0.0
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -3081,7 +3315,7 @@ m_PackageAssets:
       type: module
       description: 'The VR module implements support for virtual reality devices
         in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VRModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -3113,6 +3347,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -3131,8 +3366,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.wind@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.wind@1.0.0
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -3144,7 +3378,7 @@ m_PackageAssets:
       type: module
       description: 'The Wind module implements the WindZone component which can affect
         terrain rendering and particle simulations. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.WindModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -3162,6 +3396,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -3180,8 +3415,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.xr@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.xr@1.0.0
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -3193,7 +3427,7 @@ m_PackageAssets:
       type: module
       description: 'The XR module contains the VR and AR related platform support
         functionality. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.XRModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -3223,6 +3457,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -3241,8 +3476,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.subsystems@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.subsystems@1.0.0
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -3254,7 +3488,7 @@ m_PackageAssets:
       type: module
       description: 'The Subsystem module contains the definitions and runtime support
         for general subsystems in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.SubsystemsModule.html'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -3276,6 +3510,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -3294,8 +3529,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.modules.uielementsnative@1.0.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -3306,7 +3540,7 @@ m_PackageAssets:
       category: 
       type: module
       description: 
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -3336,6 +3570,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -3354,8 +3589,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -3364,10 +3598,10 @@ m_PackageAssets:
         email: 
         url: 
       category: Libraries
-      type: 
+      type: asset
       description: Custom version of the nunit package build to work with Unity.
         Used by the Unity Test Framework.
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -3378,6 +3612,7 @@ m_PackageAssets:
         - 1.0.5
         - 1.0.6
         - 2.0.2
+        - 2.0.3
         compatible:
         - 0.1.5-preview
         - 0.1.6-preview
@@ -3386,6 +3621,7 @@ m_PackageAssets:
         - 1.0.5
         - 1.0.6
         - 2.0.2
+        - 2.0.3
         verified: 1.0.6
       dependencies: []
       resolvedDependencies: []
@@ -3400,8 +3636,9 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -3418,8 +3655,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.1
       source: 1
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.services.core@1.0.1"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.services.core@1.0.1
       assetPath: Packages/com.unity.services.core
       name: com.unity.services.core
       displayName: Services Core
@@ -3428,13 +3664,13 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: 'This package defines common components used by multiple Game
         Service packages.
 
         These are standardized and aim to unify the overall
         experience of working with Game Services packages.'
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -3449,6 +3685,12 @@ m_PackageAssets:
         - 1.2.0
         - 1.3.1
         - 1.3.2
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.5.2
+        - 1.6.0
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -3461,7 +3703,13 @@ m_PackageAssets:
         - 1.2.0
         - 1.3.1
         - 1.3.2
-        verified: 1.0.1
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.5.2
+        - 1.6.0
+        verified: 1.6.0
       dependencies:
       - name: com.unity.modules.unitywebrequest
         version: 1.0.0
@@ -3476,8 +3724,9 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -3494,8 +3743,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.mathematics@1.1.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.mathematics@1.1.0
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
       displayName: Mathematics
@@ -3507,7 +3755,7 @@ m_PackageAssets:
       type: 
       description: Unity's C# SIMD math library providing vector types and math functions
         with a shader like syntax.
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -3558,6 +3806,7 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
@@ -3576,8 +3825,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.2.0
       source: 1
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.2d.common@4.2.0"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.2d.common@4.2.0
       assetPath: Packages/com.unity.2d.common
       name: com.unity.2d.common
       displayName: 2D Common
@@ -3586,10 +3834,10 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: 
+      type: asset
       description: 2D Common is a package that contains shared functionalities that
         are used by most of the other 2D packages.
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -3614,6 +3862,7 @@ m_PackageAssets:
         - 4.0.4
         - 4.1.0
         - 4.2.0
+        - 4.2.1
         - 5.0.0-pre.1
         - 5.0.0-pre.2
         - 5.0.0
@@ -3624,13 +3873,24 @@ m_PackageAssets:
         - 6.0.1
         - 6.0.2
         - 6.0.3
+        - 6.0.4
+        - 6.0.5
+        - 6.0.6
         - 7.0.0-pre.3
         - 7.0.0-pre.4
         - 7.0.0
+        - 7.0.1
+        - 7.0.2
+        - 7.0.3
         - 8.0.0-pre.1
+        - 8.0.0-pre.2
+        - 8.0.0
+        - 8.0.1
+        - 9.0.0-pre.1
         compatible:
         - 4.2.0
-        verified: 4.2.0
+        - 4.2.1
+        verified: 4.2.1
       dependencies:
       - name: com.unity.2d.sprite
         version: 1.0.0
@@ -3658,8 +3918,9 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -3676,8 +3937,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.0.2
       source: 1
-      resolvedPath: "C:\\unity me\\\u904A\u6232\u5C08\u6848\\frogcatbar\\frog,cat
-        and Bar\\Library\\PackageCache\\com.unity.2d.path@4.0.2"
+      resolvedPath: D:\hellslime\Library\PackageCache\com.unity.2d.path@4.0.2
       assetPath: Packages/com.unity.2d.path
       name: com.unity.2d.path
       displayName: 2D Path
@@ -3686,10 +3946,10 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: 
+      type: asset
       description: "2D Path provides tooling to edit shapes (polygons and B\xE9zier
         splines) in EditorWindows and the SceneView."
-      status: 4
+      status: 0
       errors: []
       versions:
         all:
@@ -3729,8 +3989,9 @@ m_PackageAssets:
         scopes: []
         isDefault: 1
         capabilities: 7
+        configSource: 0
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -3744,5 +4005,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: "C:/unity me/\u904A\u6232\u5C08\u6848/frogcatbar/frog,cat and Bar/Packages"
-m_EditorVersion: 2020.3.33f1 (915a7af8b0d5)
+m_ProjectPath: D:/hellslime/Packages
+m_EditorVersion: 2020.3.42f1 (7ade1201f527)
