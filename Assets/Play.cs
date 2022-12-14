@@ -215,6 +215,10 @@ public class Play : MonoBehaviour
             {
                 Change_Camera(1);
             }
+            else if (other.gameObject.name == "camera shape 2 (1)")
+            {
+                Change_Camera(2);
+            }
         }
     }
     private void Change_Camera(int i)
