@@ -206,20 +206,23 @@ public class Play : MonoBehaviour
     {
         if (other.gameObject.tag == "camera range")
         {
-            if (other.gameObject.name == "camera shape (1)")
+            for(int i=0;i< All_camera.Length;i++)
             {
-                Change_Camera(0);
+                if (other.gameObject.name == "camera shape " + i + " (1)")
+                {
+                    Change_Camera(i);
+                    break;
+                }
+                else
+                {
+                    Debug.Log("camera shape " + i + " (1)");
+                    Debug.Log(other.gameObject.name);
+                }
+
             }
-                
-            else if (other.gameObject.name == "camera shape 1 (1)")
-            {
-                Change_Camera(1);
-            }
-            else if (other.gameObject.name == "camera shape 2 (1)")
-            {
-                Change_Camera(2);
-            }
+            
         }
+        
     }
     private void Change_Camera(int i)
     {
